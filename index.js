@@ -1,14 +1,9 @@
 
-let name = 'Mosh';
-console.log(name);
+let person = {
+name: 'Iain',
+age: 25
+};
 
-// Cannot be a reserved keyword
-// Should be meaningful
-// Cannot start with a number
-// Cannot contain a space or hyphen (-)
-// Are case sensetive
-
-
-let firstName = 'Mosh';
-let lastName = 'Henderson';
-
+console.log(person);
+// Dot Notation
+person
